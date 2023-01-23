@@ -46,6 +46,7 @@ namespace ConsoleApp2
         {
             Program prog = new Program();
             prog.ProcessStream(prog.ReadNextNumber());
+            //used to avoid statics for the funcs readnextnum and processStrean
         }
 
     }
